@@ -1,5 +1,4 @@
 # Scene-Classification-and-Object-Detection-using-Caffe-and-YOLO
-To get the above files runnng,
 1) Download the folder and unzip it.
 2) Open folder demo and place it in your /caffe-master/python directory
 3) Enter demo directory
