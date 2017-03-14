@@ -13,7 +13,7 @@
 - Line 139: /python/caffe/imagenet/ilsvrc_2012_mean.npy
 - Line 141: /data/ilsvrc12/synset_words.txt
 - Line 143: /data/ilsvrc12/imagenet.bet.pickle
-If the above files are not present, then simply run
+#### If the above files are not present, then simply run
 - $ ./download_model_binary.py ../models/bvlc_reference_caffenet/
 - $ ./data/ilsvrc12/get_ilsvrc_aux.sh
 6) Open app.py
