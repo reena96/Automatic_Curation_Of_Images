@@ -1,8 +1,18 @@
 # Scene-Classification-and-Object-Detection-using-Caffe-and-YOLO
 To get the above files runnng,
 1) Download the folder and unzip it.
-2) Open folder demo.
-3) Open app.py
+2) Open folder demo and place it in your /caffe/python directory
+3) 
+cd caffe-master
+cd python
+cd demo
+4) Create the following symbolic link:
+ln -s /home/username/caffe-master/python/caffe
+4) Ensure that you have models
+
+
+3) Ensure that your /caffe-master/python/demo directory has a symbolic link to your /caffe-master/python/caffe directory by enter this line in the terminal while you are 
+4) Open app.py
 
 Notes:
 Line 29 in app.py returns your home directory
