@@ -16,7 +16,7 @@
 ### If the above files are not present, then simply run
 - $ ./download_model_binary.py ../models/bvlc_reference_caffenet/
 - $ ./data/ilsvrc12/get_ilsvrc_aux.sh
-6) Open app.py
+#### 6) Open app.py
 Notes:
 Line 29 in app.py returns your home directory
 Line 29: userhome = os.path.expanduser('~')    
