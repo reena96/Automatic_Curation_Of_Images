@@ -19,5 +19,5 @@ Example: userhome value will be returned as /home/reena-mary
 - Line 97:  yolopred = userhome + "/darknet/predictions.jpg"
 - Line 265: req_path = userhome + "/darknet/"
 
-Example: yolopred = userhome + "/path between home directory and darknet/darkent/predictions.jpg"
+ Example: yolopred = userhome + "/path between home directory and darknet/darkent/predictions.jpg"
 
