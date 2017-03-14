@@ -18,9 +18,9 @@
 - $ ./data/ilsvrc12/get_ilsvrc_aux.sh
 #### 6) Open app.py
 Notes:
-Line 29 in app.py returns your home directory
-Line 29: userhome = os.path.expanduser('~')    
-Example: userhome value will be returned as /home/reena-mary
+- Line 29 in app.py returns your home directory
+- Line 29: userhome = os.path.expanduser('~')    
+- Example: userhome value will be returned as /home/reena-mary
 
 ## Changes to be made in app.py
 1) Lines 64, 97: Check if your prediction in darknet directory is a predictions.jpg file or a predictions.png file and edit the paths accordingly. This step is important. You need to ensure that the correct file type is present in your path (jpg or png).
