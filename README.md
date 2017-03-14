@@ -1,4 +1,5 @@
 # Scene-Classification-and-Object-Detection-using-Caffe-and-YOLO
+If you have Caffe and YOLO successfully installed on your system, you can proceed with scene classification using Caffe and YOLO on a webapp.
 #### 1) Download the folder and unzip it.
 #### 2) Open folder demo and place it in your /caffe-master/python directory
 #### 3) Enter demo directory
@@ -34,4 +35,12 @@ Notes:
 - Line 265: req_path = userhome + "/darknet/"
 
  Example: yolopred = userhome + "/path between home directory and darknet/darkent/predictions.jpg"
+### To run the program, 
+- $ cd caffe-master
+- $ cd python
+- $ cd demo
+- $ python app.py
+###### If after a few runs, you get the error of "Port already in use", simply add the a new port as follows:
+- $ python app.py -p 5001
 
+On running the app.py, the webapp is automatically opened in your browser on http://0.0.0.0:5000 (Port number in the browser (here: 5000) changes as you change the port number while running the program.)
