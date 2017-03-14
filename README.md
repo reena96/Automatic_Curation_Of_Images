@@ -7,7 +7,7 @@ To get the above files runnng,
 - $ cd python
 - $ cd demo
 4) Create the following symbolic link in the  /caffe-master/python/demo directory :
-$ ln -s /home/username/caffe-master/python/caffe
+- $ ln -s /home/username/caffe-master/python/caffe
 5) Ensure that you have the following files in your directories or edit the paths accordingly as our app.py requires each of the below mentioned files for running correctly.
 - Line 135: /models/bvlc_reference_caffenet/deploy.prototxt
 - Line 137: /models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
