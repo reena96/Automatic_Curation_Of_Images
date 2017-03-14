@@ -2,18 +2,22 @@
 To get the above files runnng,
 1) Download the folder and unzip it.
 2) Open folder demo and place it in your /caffe/python directory
-3) 
-cd caffe-master
-cd python
-cd demo
-4) Create the following symbolic link:
-ln -s /home/username/caffe-master/python/caffe
-4) Ensure that you have models
-
-
-3) Ensure that your /caffe-master/python/demo directory has a symbolic link to your /caffe-master/python/caffe directory by enter this line in the terminal while you are 
-4) Open app.py
-
+3) Enter demo directory
+- $ cd caffe-master
+- $ cd python
+- $ cd demo
+4) Create the following symbolic link in the  /caffe-master/python/demo directory :
+$ ln -s /home/username/caffe-master/python/caffe
+5) Ensure that you have the following files in your directories or edit the paths accordingly as our app.py requires each of the below mentioned files for running correctly.
+- Line 135: /models/bvlc_reference_caffenet/deploy.prototxt
+- Line 137: /models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
+- Line 139: /python/caffe/imagenet/ilsvrc_2012_mean.npy
+- Line 141: /data/ilsvrc12/synset_words.txt
+- Line 143: /data/ilsvrc12/imagenet.bet.pickle
+If the above files are not present, then simply run
+- $ ./download_model_binary.py ../models/bvlc_reference_caffenet/
+- $ ./data/ilsvrc12/get_ilsvrc_aux.sh
+6) Open app.py
 Notes:
 Line 29 in app.py returns your home directory
 Line 29: userhome = os.path.expanduser('~')    
