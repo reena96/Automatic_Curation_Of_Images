@@ -1,4 +1,9 @@
 # Automatic_Curation_Of_Images-using-Caffe-and-YOLO
+
+## Description:
+###Performed curated filtering to group images together based on the image contents and viewership patterns for the purpose of constructing custom user profiles to recommend relevant images to the users using their respective profiles, search and viewership histories
+###	Developed the solution by validating the image contents of the Places Dataset against their descriptions obtained by scene classification using Caffe and Object Detection using YOLO (You Only Look Once) to return only the relevant images that match the context of requirement
+
 If you have Caffe and YOLO successfully installed on your system, you can proceed with scene classification using Caffe and YOLO on a webapp.
 #### 1) Download the folder and unzip it.
 #### 2) Open folder demo and place it in your /caffe-master/python directory
