@@ -1,4 +1,4 @@
-# Scene-Classification-and-Object-Detection-using-Caffe-and-YOLO
+# Automatic_Curation_Of_Images-using-Caffe-and-YOLO
 If you have Caffe and YOLO successfully installed on your system, you can proceed with scene classification using Caffe and YOLO on a webapp.
 #### 1) Download the folder and unzip it.
 #### 2) Open folder demo and place it in your /caffe-master/python directory
