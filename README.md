@@ -1,6 +1,6 @@
 # Automatic_Curation_Of_Images-using-Caffe-and-YOLO
 ## Documentation: ##
-Documentation: https://github.com/reena96/Automatic_Curation_Of_Images/blob/master/Automatic%20Curation%20Documentation.pdf
+https://github.com/reena96/Automatic_Curation_Of_Images/blob/master/Automatic%20Curation%20Documentation.pdf
 
 ## Description:
 ### Performed curated filtering to group images together based on the image contents and viewership patterns for the purpose of constructing custom user profiles to recommend relevant images to the users using their respective profiles, search and viewership histories
